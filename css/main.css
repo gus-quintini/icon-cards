@@ -16,3 +16,35 @@ html {
 *, *::before, *::after {
   box-sizing: inherit;
 }
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+p {
+  color: #333;
+}
+
+.card {
+  background-color: #fff;
+  border: 3px solid;
+  border-color: #000;
+  border-radius: .5em;
+}
+
+.card:hover {
+  background-color: #e6e6e6;
+}
+
+.card:hover .btn {
+  color: #fff;
+  background-color: #333;
+}
+
+@media only screen and (min-width: 35em) {
+
+  a {
+    width: 95%;
+  }
+}
